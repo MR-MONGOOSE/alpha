@@ -1,0 +1,9 @@
+{
+  "name": "UP-OMPU",
+  "dependencies": {
+    "express": "^4.12.4",
+    "body-parser": "^1.12.2",
+    "mongoose": "^4.0.1",
+    "express-session": "latest"
+  }
+}
