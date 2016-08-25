@@ -31,11 +31,11 @@
             dashboard = '../views/dashboard/dashboard.'+l+'html';
 
         $urlRouterProvider
-          .otherwise('/vompu/');
+          .otherwise('/beta/');
         $stateProvider
           .state('app', {
             abstract: true,
-            url: '/vompu',
+            url: '/beta',
             views: {
               '': {
                 templateUrl: layout
